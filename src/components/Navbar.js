@@ -1,3 +1,4 @@
+
 import { RiUser3Line } from 'react-icons/ri';
 import { RiArrowDownSLine } from 'react-icons/ri';
 
@@ -61,3 +62,15 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+function Navbar() {
+  return (
+    <div>
+      <h1>hello</h1>
+    </div>
+  )
+}
+
+export default Navbar
+
