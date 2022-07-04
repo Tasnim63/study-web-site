@@ -1,5 +1,4 @@
-import { RiUser3Line } from 'react-icons/ri';
-import { RiArrowDownSLine } from 'react-icons/ri';
+import { RiArrowDownSLine, RiUser3Line } from 'react-icons/ri';
 
 function Navbar() {
   let links = [
@@ -9,7 +8,7 @@ function Navbar() {
     },
     {
       name: "Cources",
-      link: "/",
+      link: "/cources",
     },
     {
       name: "Blogs",
@@ -21,7 +20,7 @@ function Navbar() {
     },
   ];
   return (
-    <div className=" p-5 shadow-md ">
+    <div className=" sticky top-0 z-50 bg-white p-5 shadow-md ">
       <div className=" flex flex-row  items-center justify-around">
         <div className="">
           <img
