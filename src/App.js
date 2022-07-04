@@ -17,8 +17,7 @@ function App() {
     <Route path='/cources' element={<Cources></Cources>}></Route>
    </Routes>
 
-      <Navbar></Navbar>
-      <Home></Home>
+     
 
     </>
 

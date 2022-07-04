@@ -31,7 +31,7 @@ function CourcesCardDetails({card}) {
         
         <p className=' flex'>  <span className='text-teal-400   p-1 mx-1'><BiBook></BiBook></span> <span>{book}</span></p>
            </div>
-           <p className='ml-32 mt-1 text-yellow-300 flex'><AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar></p>
+           <p className='ml-32 mt-1 text-lg text-yellow-300 flex'><AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar> <AiFillStar></AiFillStar></p>
           </div>
         </div>
       </div>
