@@ -1,5 +1,5 @@
 import { RiArrowDownSLine, RiUser3Line } from 'react-icons/ri';
-
+import { Link } from "react-router-dom";
 function Navbar() {
   let links = [
     {
@@ -49,10 +49,15 @@ function Navbar() {
         </div>
         <div className=' flex'>
           <p className=' p-3 font-bold'>   <RiUser3Line></RiUser3Line></p>
+
+          <Link to="/login_signup">
           <button className="hover:text-sky-500  text-xl">
          
-            Login / Signup
-          </button>
+         Login / Signup
+       </button>
+
+          </Link>
+          
         </div>
         </div>
         </div>
