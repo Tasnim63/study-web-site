@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Banner from './Banner';
 import Collaborate from './Collaborate';
@@ -28,3 +29,14 @@ const Home = () => {
 };
 
 export default Home;
+
+
+function Home() {
+  return (
+    <div className=" text-center">
+      <h1 className="bg-blue-500 text-white hover:bg-slate-500">home</h1>
+    </div>
+  )
+}
+
+export default Home
