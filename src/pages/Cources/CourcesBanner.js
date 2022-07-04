@@ -13,7 +13,7 @@ function CourcesBanner() {
           <h1 className="  text-5xl text-sky-900 ">Courses Grid</h1>
           <div className="flex mt-8 m-14 ">
             <p>Home / </p>
-            <p className=" mx-2 text-teal-400">  Courses Grid</p>
+            <p className=" mx-2 text-teal-400">Cours Grid</p>
           </div>
         </div>
       </div>
