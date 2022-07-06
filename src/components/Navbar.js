@@ -50,7 +50,7 @@ function Navbar() {
         <div className=' flex'>
           <p className=' p-3 font-bold'>   <RiUser3Line></RiUser3Line></p>
 
-          <Link to="/login_signup">
+          <Link to="/login">
           <button className="hover:text-sky-500  text-xl">
          
          Login / Signup
